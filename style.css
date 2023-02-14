@@ -1,0 +1,96 @@
+@import url(https://fonts.googleapis.com/css2?family=Inter:wght@300;500&display=swap);
+
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body{
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(4, 33, 10);
+}
+
+div.titre{
+  width: 100%;
+  height: 200px;
+  font-size: 50px;
+  font-family: 'Inter';
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+div.player{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  font-size: 20px;
+  gap: 20px;
+  padding-top: 20px;
+  font-weight: 600;
+}
+
+div.titre h1{
+  color: antiquewhite;
+}
+
+/* div.firstLine{
+  padding-top: 200px;
+} */
+
+div.firstLine, div.midLine, div.lastLine{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  padding-bottom: 5px;
+}
+
+#square{
+  width: 100px;
+  height: 100px;
+  border: 1px solid red;
+}
